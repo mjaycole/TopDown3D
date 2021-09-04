@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 823e3a22cbc0d7c4a9d1e8a02e673ea2, type: 3}
+  m_Name: TestSword
+  m_EditorClassIdentifier: 
+  weaponName: Test Sword
+  weaponPrefab: {fileID: 7358069517243038966, guid: 729a317576951384b94b6410d91ae935, type: 3}
+  weaponInventory: {fileID: 4430142989180466460, guid: fa923fbb8a18b3f4eaea9803bf8cfda9, type: 3}
+  weaponDrop: {fileID: 6191204720593602287, guid: 93763d12be265c94896470cde7020df0, type: 3}
+  spawnChance: 1
+  gun: 0
+  melee: 1
+  timeBetweenShots: 0.25
+  attackRange: 1
+  damageAmount: 100
+  timeBetweenHits: 1
+  impactSound: {fileID: 8300000, guid: 70439acf07505b04f9495729bcd8a678, type: 3}
+  impactEffect: {fileID: 127214, guid: d4287a2e8ade3e34786f23a6ffd63800, type: 3}
+  ammoType: 0
+  fireRate: 5
+  clipSize: 0
+  bulletPrefab: {fileID: 0}
+  bulletSpeed: 15
+  reloadTime: 3
+  muzzleFlash: {fileID: 0}
+  useSound: {fileID: 8300000, guid: 88f67ed877785464dbce734f90a6e285, type: 3}
+  reloadOne: {fileID: 0}
+  reloadTwo: {fileID: 0}
+  reloadThree: {fileID: 0}
