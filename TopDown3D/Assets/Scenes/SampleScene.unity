@@ -1254,6 +1254,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_SMG
       objectReference: {fileID: 0}
+    - target: {fileID: 4793914859757083003, guid: 6aea2993ed03c37459108b6c397cd0b3, type: 3}
+      propertyPath: xpOnDeath
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793914859757083003, guid: 6aea2993ed03c37459108b6c397cd0b3, type: 3}
+      propertyPath: xpGainObject
+      value: 
+      objectReference: {fileID: 1575751102834792403, guid: 15d2a1c9918f6ee4596bcd1bb61d9d20, type: 3}
     - target: {fileID: 8420660320957066087, guid: 6aea2993ed03c37459108b6c397cd0b3, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -4368,6 +4376,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Rifleman (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4793914859757083003, guid: f854cc8bce791844baf8d15d38cddf6c, type: 3}
+      propertyPath: xpOnDeath
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793914859757083003, guid: f854cc8bce791844baf8d15d38cddf6c, type: 3}
+      propertyPath: xpGainObject
+      value: 
+      objectReference: {fileID: 1575751102834792403, guid: 15d2a1c9918f6ee4596bcd1bb61d9d20, type: 3}
     - target: {fileID: 8420660320957066087, guid: f854cc8bce791844baf8d15d38cddf6c, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -6443,6 +6459,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Rifleman
       objectReference: {fileID: 0}
+    - target: {fileID: 4793914859757083003, guid: f854cc8bce791844baf8d15d38cddf6c, type: 3}
+      propertyPath: xpOnDeath
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793914859757083003, guid: f854cc8bce791844baf8d15d38cddf6c, type: 3}
+      propertyPath: xpGainObject
+      value: 
+      objectReference: {fileID: 1575751102834792403, guid: 15d2a1c9918f6ee4596bcd1bb61d9d20, type: 3}
     - target: {fileID: 8420660320957066087, guid: f854cc8bce791844baf8d15d38cddf6c, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -6952,6 +6976,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_DMR
       objectReference: {fileID: 0}
+    - target: {fileID: 4793914859757083003, guid: 9990d9d0e1fe59a4fbd84319ffaf5343, type: 3}
+      propertyPath: xpOnDeath
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793914859757083003, guid: 9990d9d0e1fe59a4fbd84319ffaf5343, type: 3}
+      propertyPath: xpGainObject
+      value: 
+      objectReference: {fileID: 1575751102834792403, guid: 15d2a1c9918f6ee4596bcd1bb61d9d20, type: 3}
     - target: {fileID: 8420660320957066087, guid: 9990d9d0e1fe59a4fbd84319ffaf5343, type: 3}
       propertyPath: m_RootOrder
       value: 13
@@ -7528,6 +7560,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Enemy_Rifleman (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4793914859757083003, guid: f854cc8bce791844baf8d15d38cddf6c, type: 3}
+      propertyPath: xpOnDeath
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4793914859757083003, guid: f854cc8bce791844baf8d15d38cddf6c, type: 3}
+      propertyPath: xpGainObject
+      value: 
+      objectReference: {fileID: 1575751102834792403, guid: 15d2a1c9918f6ee4596bcd1bb61d9d20, type: 3}
     - target: {fileID: 8420660320957066087, guid: f854cc8bce791844baf8d15d38cddf6c, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -26657,6 +26697,7 @@ GameObject:
   - component: {fileID: 8717933700123648715}
   - component: {fileID: 8717933700123648713}
   - component: {fileID: 8717933700123648716}
+  - component: {fileID: 8717933700123648717}
   m_Layer: 9
   m_Name: Player
   m_TagString: Player
@@ -26977,6 +27018,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currencyText: {fileID: 151521549}
   currentCurrency: 0
+--- !u!114 &8717933700123648717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8717933700123648705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c665fd27c126ca74db706a23fa424d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  experienceText: {fileID: 0}
+  levelText: {fileID: 0}
+  levelCap: 40
+  currentXP: 0
+  currentLevel: 0
+  xpNeeded: 0
 --- !u!4 &8718255015592300125
 Transform:
   m_ObjectHideFlags: 0
